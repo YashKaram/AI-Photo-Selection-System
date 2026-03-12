@@ -35,3 +35,7 @@ python app.py
 ## Project Type
 
 Computer Vision + Artificial Intelligence
+
+## 🏗 System Architecture
+
+![Architecture](assets/architecture.png)
