@@ -39,3 +39,56 @@ Computer Vision + Artificial Intelligence
 ## 🏗 System Architecture
 
 ![Architecture](assets/architecture.png)
+
+## 📂 Dataset
+
+The system works with user-uploaded images.
+
+Supported types:
+
+- Single person photos
+- Group photos
+- Mixed image collections
+
+The dataset used during testing contains:
+
+- Portrait images
+- Group event photos
+- Multiple lighting conditions
+- Different face orientations
+
+Images are analyzed using computer vision techniques to determine the best quality photos.
+
+## ⚙️ Model Workflow
+
+1. Image Upload
+Users upload multiple images.
+
+2. Image Preprocessing
+Images are resized and normalized.
+
+3. Face Detection
+MediaPipe detects faces in images.
+
+4. Quality Analysis
+The system checks:
+
+- image sharpness
+- face visibility
+- brightness
+- blur level
+
+5. Photo Ranking
+Images are scored based on quality.
+
+6. Best Photo Selection
+The system selects the highest scoring images.
+
+## 🛠 Tech Stack
+
+- Python
+- OpenCV
+- MediaPipe
+- NumPy
+- Streamlit
+- Machine Learning
